@@ -12,6 +12,12 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const navlinks = [
+  { name: "Register" , href: "/register" },
+  { name: "Login" , href: "/login" },
+  { name: "Forgot Password" , href: "/forgot-password" },
+]
+
 export const metadata: Metadata = {
   title : {
     default: "Next.js Tutorial",
