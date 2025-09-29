@@ -1,9 +1,11 @@
 import Link from "next/link"
 
-export default function NewsArticle({ params , searchParams};{
+export default function NewsArticle({
+  params , searchParams};{
   params: <{ articleId: string }>;
   searchParams: <{ lang?: "en" | "es" | "fr" }>;
 }) {
+  n
   return(
     <div>
       <h1 className=" flex font-bold text-4xl text-blue-600 justify-center mt-10">News article id </h1>
