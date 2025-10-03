@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js 15 Course Roadmap
 
-## Getting Started
+## 1. Fundamentals & Routing (Videos 1–20) – Next.js Basics
 
-First, run the development server:
+* Understand Next.js project structure
+* Learn about routing: static, nested, dynamic, catch-all routes
+* Use layouts, templates, route groups
+* Handle links, navigation, params, metadata
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Outcome:**
+By the end of this section, you’ll know how to build a multi-page Next.js app with clean navigation.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 2. Error Handling & Advanced Routing (Videos 21–34) – Routing & Error Handling
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Handle 404 pages & custom errors
+* Learn about parallel routes, intercepting routes
+* Control conditional & unmatched routes
 
-## Learn More
+**Outcome:**
+You’ll learn how to make your app resilient and flexible.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 3. API Routes & Middleware (Videos 35–46) – API Section
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Learn route handlers (GET, POST, PATCH, DELETE)
+* Work with query params, headers, cookies, redirects
+* Use middleware for auth, logging, or API filtering
 
-## Deploy on Vercel
+**Outcome:**
+This section makes you a backend-capable developer inside Next.js.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 4. Rendering & Server Components (Videos 47–65) – Rendering & Performance
+
+* Understand CSR, SSR, SSG, ISR
+* Learn about React Server Components (RSC)
+* Mix server & client components effectively
+* Explore static & dynamic rendering
+
+**Outcome:**
+You’ll know how to optimize performance and choose the right rendering strategy for any project.
+
+---
+
+## 5. Data Fetching & Forms (Videos 66–82) – Database & Forms Section
+
+* Fetch data on client & server
+* Learn sequential & parallel data fetching
+* **Database:** Connect to MongoDB and perform CRUD
+* Use server actions for forms (validation, optimistic updates, etc.)
+* Forms: Create, update, delete, and manage form state
+
+**Outcome:**
+Now you can build full-stack apps (frontend + backend + database).
+
+---
+
+## 6. Authentication & Authorization (Videos 83–91) – Auth Section
+
+* Setup Clerk authentication
+* Implement Sign in / Sign out / Profile settings
+* Protect routes (private pages)
+* Role-Based Access Control (RBAC)
+* Customize Clerk components
+
+**Outcome:**
+You’ll master auth, one of the hardest but most important parts of real-world apps.
+
+---
+
+## 7. Deployment (Video 92) – Deployment
+
+* Deploy Next.js apps to Vercel
+* Learn best practices for hosting production apps
+
+**Outcome:**
+Finally, your projects become publicly available and job-ready.
