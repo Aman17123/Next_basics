@@ -10,7 +10,7 @@ export default function AuthLayout({
   children: React.ReactNode;
 }) {
   const [input, setInput] = useState("");
-  const pathname = usePathname(); // call hook here
+  const pathname = usePathname(); 
 
   // Declare nav links as a proper array
   const navLinks = [
@@ -25,8 +25,8 @@ export default function AuthLayout({
       <div className="mb-4">
         <input
           value={input}
-          onChange={(e) => setInput(e.target.value)}
-          placeholder="Searc..."
+          onChange={(e) => (e.target.value)}
+          placeholder="Searc... nigga"
           className="border-2 border-blue-500 px-3 py-1 rounded"
         />
       </div>
