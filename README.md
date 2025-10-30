@@ -79,3 +79,10 @@ You’ll master auth, one of the hardest but most important parts of real-world 
 
 **Outcome:**
 Finally, your projects become publicly available and job-ready.
+
+
+* Deploy Next.js apps to Vercel
+* Learn best practices for hosting production apps
+
+**Outcome:**
+Finally, your projects become publicly available and job-ready.
