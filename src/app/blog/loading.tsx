@@ -2,7 +2,12 @@
 
 import { motion } from "framer-motion";
 
-export default function Loading() {
+export default async function Loading() {
+  await new Promise ((resolve) => {
+    setTimeout( () => {
+      resolve("HATT BSDK");
+    }, 9000 )
+  })
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-700 text-white">
       <motion.div
