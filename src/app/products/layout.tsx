@@ -1,8 +1,21 @@
+function getRandomInt(count: number) {
+  return Math.floor(Math.random() * count);
+}
+
+
 export default function ProductsLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+    // Throw error randomly to test error boundary
+  const random = getRandomInt(2);
+
+  if (random === 1) {
+    throw new Error("Error Loading ");
+  }
+
   return (
     <section className="container mx-auto p-6">
       {/* Product-specific header */}
