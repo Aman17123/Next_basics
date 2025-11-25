@@ -3,7 +3,7 @@
 import { useRouter } from 'next/navigation'
 import { startTransition } from 'react'
 
-export default function ErrorBoundary({ error, reset }) {
+export default function ErrorBoundary({ error , reset }) {
   const router = useRouter()
 
   const reload = () => {
