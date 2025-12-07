@@ -12,7 +12,7 @@
 
 ---
 
-## 📚 Table of Contents
+## 📚 Table 
 
 - [1. Foundations & Routing (Videos 1–14)](#1-foundations--routing-videos-1–14)  
 - [2. UI, Styling & Components (Videos 15–24)](#2-ui-styling--components-videos-15–24)  
