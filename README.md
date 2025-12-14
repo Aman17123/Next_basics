@@ -14,7 +14,7 @@
 
 ## 📚 Table of Content
 
-- [1. Foundations & Routing (Videos 1–14)](#1-foundations--routing-videos-1–14)  
+- [1. Foundations & Routing's (Videos 1–14)](#1-foundations--routing-videos-1–14)  
 - [2. UI, Styling & Components (Videos 15–24)](#2-ui-styling--components-videos-15–24)  
 - [3. API Routes & Middleware (Videos 25–36)](#3-api-routes--middleware-videos-25–36)  
 - [4. Data Fetching, Caching & Server Actions (Videos 37–52)](#4-data-fetching-caching--server-actions-videos-37–52)  
