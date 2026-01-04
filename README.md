@@ -1,4 +1,4 @@
-<h1 align="center">🎬 Next.js 15 YouTube Playlist — categories Videos PLaylist
+<h1 align="center">🎬 Next.js 15 YouTube Playlist — categories Videos 
 </h1>
 
 <p align="center">
