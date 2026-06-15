@@ -1,4 +1,4 @@
-<h1 align="center">🎬 Next.js 15 YouTube Playlist — categorize video selection
+<h1 align="center">🎬 Next.js 15 YouTube Playlist 
   
 </h1>
 
